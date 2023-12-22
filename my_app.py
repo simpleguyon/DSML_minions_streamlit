@@ -5,7 +5,7 @@ import datetime
 st.header("This is stock market data")
 
 #Textbox
-ticker_symbol = st.text_input('Enter Stock Symbol', 'APPL', key='placeholder')
+ticker_symbol = st.text_input('Enter Stock Symbol', 'AAPL', key='placeholder')
 
 ticker_data = yf.Ticker(ticker_symbol)
 
