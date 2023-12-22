@@ -24,7 +24,7 @@ with col2:
 
 ticker_df = ticker_data.history(period='1d',start=f'{start_date}',end=f'{end_date}')
 
-dicter = {'AAPL':'APPLE','GOOG':'GOOGLE'}
+dicter = {'AAPL':'APPLE','GOOG':'GOOGLE','TSLA':'TESLA'}
 
 st.write(f"""
         
