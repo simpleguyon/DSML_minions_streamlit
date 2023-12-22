@@ -1,2 +1,2 @@
-# DSML_minions_streamlit
+# Streamlit Apps
  
